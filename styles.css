@@ -1,0 +1,205 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    /*fonte do google fonts*/
+    margin: 0;
+    /*espaçamento externo*/
+    padding: 0;
+    /*espaçamento interno*/
+    box-sizing: border-box;
+    /*espaçamento interno*/
+
+}
+
+header {
+    /*tag de cabeçalho*/
+    margin: 44px 0 144px 76px;
+    /*espaçamento externo*/
+}
+
+.link-header {
+    /*tag de link*/
+    font-weight: 600;
+    /*peso da fonte*/
+    font-size: 24px;
+    /* tamanho da fonte*/
+    line-height: 29px;
+    /*altura da fonte*/
+    color: #989D9C;
+    /*cor da fonte*/
+    cursor: pointer;
+    /*cursor do mouse*/
+    margin-right: 23px;
+    /*espaçamento externo*/
+}
+
+.button-header {
+    /*tag de botão*/
+    background: #665AE1;
+    /*cor de fundo*/
+    border-radius: 20.5px;
+    /*borda arredondada*/
+    width: 130px;
+    /*largura*/
+    height: 41px;
+    /*altura*/
+    border: none;
+    /*sem borda*/
+    cursor: pointer;
+    /*cursor do mouse*/
+    font-weight: 600;
+    /*peso da fonte*/
+    font-size: 24px;
+    /*tamanho da fonte*/
+    line-height: 29px;
+    /*altura da fonte*/
+    color: #FFFFFF;
+    /*cor da fonte*/
+}
+
+
+
+.logo-image {
+    /*tag de imagem*/
+    width: 568px;
+    /*largura*/
+    height: 500px;
+    /*altura*/
+    margin-left: 125px;
+    /*espaçamento externo*/
+    display: inline-block;
+    /*display de bloco*/
+}
+
+section {
+    /*tag de seção*/
+    display: inline-block;
+    /*display de bloco*/
+    margin-left: 86px;
+    /*espaçamento externo*/
+}
+
+h1 {
+    /*tag de título*/
+    font-weight: 900;
+    /*peso da fonte*/
+    font-size: 100px;
+    /*tamanho da fonte*/
+    line-height: 122px;
+    /*altura da fonte*/
+    color: #515151;
+    /*cor da fonte*/
+}
+
+h2 {
+    /*tag de título*/
+    font-weight: 500;
+    /*peso da fonte*/
+    font-size: 58px;
+    /*tamanho da fonte*/
+    line-height: 71px;
+    /*altura da fonte*/
+    color: #515151;
+    /*cor da fonte*/
+}
+
+p {
+    /*tag de parágrafo*/
+    font-weight: 400;
+    /*peso da fonte*/
+    font-size: 24px;
+    /*tamanho da fonte*/
+    line-height: 29px;
+    /*altura da fonte*/
+    color: #848484;
+    /*cor da fonte*/
+    width: 515px;
+    /*largura*/
+    margin-top: 32px;
+    /*espaçamento externo*/
+    margin-bottom: 65px;
+    /*espaçamento externo*/
+}
+
+.button-main {
+    /*tag de botão*/
+    background: #ADFF00;
+    /*cor de fundo*/
+    border-radius: 30.5px;
+    /*borda arredondada*/
+    width: 239px;
+    /*largura*/
+    height: 64px;
+    /*altura*/
+    border: none;
+    /*sem borda*/
+    cursor: pointer;
+    /*cursor do mouse*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /*sombra*/
+    font-weight: 700;
+    /*peso da fonte*/
+    font-size: 28px;
+    /*tamanho da fonte*/
+    line-height: 34px;
+    /*altura da fonte*/
+    color: #000000;
+    /*cor da fonte*/
+
+}
+
+@media (max-width: 480px) {
+    header {
+        margin: 15px 0 50px 15px;
+    }
+
+    .link-header {
+        /*tag de link*/
+        font-weight: 600;
+        /*peso da fonte*/
+        font-size: 15px;
+        /* tamanho da fonte*/
+        line-height: 19px;
+        /*altura da fonte*/
+        color: #989D9C;
+        /*cor da fonte*/
+        cursor: pointer;
+        /*cursor do mouse*/
+        margin-right: 8px;
+        /*espaçamento externo*/
+        }
+
+        .button-header {
+    /*tag de botão*/
+    background: #665AE1;
+    /*cor de fundo*/
+    border-radius: 20.5px;
+    /*borda arredondada*/
+    width: 100px;
+    /*largura*/
+    height: 31px;
+    /*altura*/
+    border: none;
+    /*sem borda*/
+    cursor: pointer;
+    /*cursor do mouse*/
+    font-weight: 600;
+    /*peso da fonte*/
+    font-size: 14px;
+    /*tamanho da fonte*/
+    line-height: 19px;
+    /*altura da fonte*/
+    color: #FFFFFF;
+    /*cor da fonte*/
+}
+
+
+
+
+
+
+
+
+
+
+
+}
